@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A20AAC22-F319-4086-8EA6-E2D8A0629732}</ProjectGuid>
+    <RootNamespace>GP_StrawMan</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31401.40</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Win32\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Visual Leak Detector\lib\Win32;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Win32\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Program Files (x86)\Visual Leak Detector\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Win32\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Visual Leak Detector\lib\Win32;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Win32\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CAbsorbPlatform.cpp" />
+    <ClCompile Include="Source\CAchievmentsState.cpp" />
+    <ClCompile Include="Source\CAnimationManager.cpp" />
+    <ClCompile Include="Source\CAssetState.cpp" />
+    <ClCompile Include="Source\CAttractState.cpp" />
+    <ClCompile Include="Source\CBaseObject.cpp" />
+    <ClCompile Include="Source\CBitMapFont.cpp" />
+    <ClCompile Include="Source\CBombardEnemy.cpp" />
+    <ClCompile Include="Source\CCheatState.cpp" />
+    <ClCompile Include="Source\CCredits.cpp" />
+    <ClCompile Include="Source\CCustomLevelState.cpp" />
+    <ClCompile Include="Source\CEmitter.cpp" />
+    <ClCompile Include="Source\CEventSystem.cpp" />
+    <ClCompile Include="Source\CFileSelectState.cpp" />
+    <ClCompile Include="Source\CGame.cpp" />
+    <ClCompile Include="Source\CGamePlayState.cpp" />
+    <ClCompile Include="Source\CGravObject.cpp" />
+    <ClCompile Include="Source\CGravSystem.cpp" />
+    <ClCompile Include="Source\CGravWell.cpp" />
+    <ClCompile Include="Source\CHazards.cpp" />
+    <ClCompile Include="Source\CHeavyEnemy.cpp" />
+    <ClCompile Include="Source\CHowToPlay.cpp" />
+    <ClCompile Include="Source\CHUD.cpp" />
+    <ClCompile Include="Source\CIntroState.cpp" />
+    <ClCompile Include="Source\CKeybindState.cpp" />
+    <ClCompile Include="Source\CLevelSelect.cpp" />
+    <ClCompile Include="Source\CMainMenuState.cpp" />
+    <ClCompile Include="Source\CMessage.cpp" />
+    <ClCompile Include="Source\CMessageSystem.cpp" />
+    <ClCompile Include="Source\CMovablePlatform.cpp" />
+    <ClCompile Include="Source\CObjectManager.cpp" />
+    <ClCompile Include="Source\COptionsState.cpp" />
+    <ClCompile Include="Source\COutroState.cpp" />
+    <ClCompile Include="Source\CParticle.cpp" />
+    <ClCompile Include="Source\CParticleManager.cpp" />
+    <ClCompile Include="Source\CPickups.cpp" />
+    <ClCompile Include="Source\CPlayer.cpp" />
+    <ClCompile Include="Source\CSniperEnemy.cpp" />
+    <ClCompile Include="Source\CTileManager.cpp" />
+    <ClCompile Include="Source\CTripwire.cpp" />
+    <ClCompile Include="Source\CTurret.cpp" />
+    <ClCompile Include="Source\CUpgradeState.cpp" />
+    <ClCompile Include="Source\CWalkerEnemy.cpp" />
+    <ClCompile Include="Source\CZone.cpp" />
+    <ClCompile Include="Source\Debug Console\DebugConsole.cpp" />
+    <ClCompile Include="Source\IGameState.cpp" />
+    <ClCompile Include="Source\Profiler\CCodeProfiler.cpp" />
+    <ClCompile Include="Source\SaveSystem.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\CSGD_Direct3D.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\CSGD_DirectInput.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\CSGD_DirectSound.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\CSGD_FModManager.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\CSGD_TextureManager.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\CSGD_WaveManager.cpp" />
+    <ClCompile Include="Source\SGD Wrappers\SGD_Math.cpp" />
+    <ClCompile Include="Source\TinyXML\tinystr.cpp" />
+    <ClCompile Include="Source\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="Source\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="Source\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CAbsorbPlatform.h" />
+    <ClInclude Include="Source\CAchievmentsState.h" />
+    <ClInclude Include="Source\CAnimationManager.h" />
+    <ClInclude Include="Source\CAssetState.h" />
+    <ClInclude Include="Source\CAttractState.h" />
+    <ClInclude Include="Source\CBaseObject.h" />
+    <ClInclude Include="Source\CBitMapFont.h" />
+    <ClInclude Include="Source\CBombardEnemy.h" />
+    <ClInclude Include="Source\CCheatState.h" />
+    <ClInclude Include="Source\CCredits.h" />
+    <ClInclude Include="Source\CCustomLevelState.h" />
+    <ClInclude Include="Source\CEmitter.h" />
+    <ClInclude Include="Source\CEvent.h" />
+    <ClInclude Include="Source\CEventSystem.h" />
+    <ClInclude Include="Source\CFileSelectState.h" />
+    <ClInclude Include="Source\CGame.h" />
+    <ClInclude Include="Source\CGamePlayState.h" />
+    <ClInclude Include="Source\CGravObject.h" />
+    <ClInclude Include="Source\CGravSystem.h" />
+    <ClInclude Include="Source\CGravWell.h" />
+    <ClInclude Include="Source\CHazards.h" />
+    <ClInclude Include="Source\CHeavyEnemy.h" />
+    <ClInclude Include="Source\CHowToPlay.h" />
+    <ClInclude Include="Source\CHUD.h" />
+    <ClInclude Include="Source\CIntroState.h" />
+    <ClInclude Include="Source\CKeybindState.h" />
+    <ClInclude Include="Source\CLevelSelect.h" />
+    <ClInclude Include="Source\CMainMenuState.h" />
+    <ClInclude Include="Source\CMessage.h" />
+    <ClInclude Include="Source\CMessageSystem.h" />
+    <ClInclude Include="Source\CMovablePlatform.h" />
+    <ClInclude Include="Source\CObjectFactory.h" />
+    <ClInclude Include="Source\CObjectManager.h" />
+    <ClInclude Include="Source\COptionsState.h" />
+    <ClInclude Include="Source\COutroState.h" />
+    <ClInclude Include="Source\CParticle.h" />
+    <ClInclude Include="Source\CParticleManager.h" />
+    <ClInclude Include="Source\CPickups.h" />
+    <ClInclude Include="Source\CPlayer.h" />
+    <ClInclude Include="Source\CSniperEnemy.h" />
+    <ClInclude Include="Source\CTileManager.h" />
+    <ClInclude Include="Source\CTripwire.h" />
+    <ClInclude Include="Source\CTurret.h" />
+    <ClInclude Include="Source\CUpgradeState.h" />
+    <ClInclude Include="Source\CWalkerEnemy.h" />
+    <ClInclude Include="Source\CZone.h" />
+    <ClInclude Include="Source\Debug Console\DebugConsole.h" />
+    <ClInclude Include="Source\IGameState.h" />
+    <ClInclude Include="Source\IListener.h" />
+    <ClInclude Include="Source\Profiler\CCodeProfiler.h" />
+    <ClInclude Include="Source\SaveSystem.h" />
+    <ClInclude Include="Source\SGD Wrappers\CSGD_Direct3D.h" />
+    <ClInclude Include="Source\SGD Wrappers\CSGD_DirectInput.h" />
+    <ClInclude Include="Source\SGD Wrappers\CSGD_DirectSound.h" />
+    <ClInclude Include="Source\SGD Wrappers\CSGD_FModManager.h" />
+    <ClInclude Include="Source\SGD Wrappers\CSGD_TextureManager.h" />
+    <ClInclude Include="Source\SGD Wrappers\CSGD_WaveManager.h" />
+    <ClInclude Include="Source\SGD Wrappers\SGD_Math.h" />
+    <ClInclude Include="Source\SGD Wrappers\SGD_Util.h" />
+    <ClInclude Include="Source\TinyXML\tinystr.h" />
+    <ClInclude Include="Source\TinyXML\tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll" />
+    <None Include="fmodexL.dll" />
+    <None Include="Source\SGD Wrappers\fmodex.dll" />
+    <None Include="Source\SGD Wrappers\fmodexL.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

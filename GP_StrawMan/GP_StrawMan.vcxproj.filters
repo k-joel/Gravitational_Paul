@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SGD Wrappers">
+      <UniqueIdentifier>{8eb2cd59-3273-4989-a464-b62f21fa99a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{b4a62cc5-288f-40db-b86d-3ac2de4e5a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Systems">
+      <UniqueIdentifier>{b0131548-da40-4fd8-b5c8-12669791ea7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Console">
+      <UniqueIdentifier>{de90e2df-6274-4907-8597-9f40df02f576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{dccd47eb-a7c6-4f26-bbd7-888986d8d528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiler">
+      <UniqueIdentifier>{c2f53fcb-bda7-464e-b1be-2ff6a849d302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{07a99573-48a3-40e1-b3b0-c75150d0fb4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\CSGD_Direct3D.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\CSGD_DirectInput.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\CSGD_DirectSound.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\CSGD_FModManager.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\CSGD_TextureManager.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\CSGD_WaveManager.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD Wrappers\SGD_Math.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAbsorbPlatform.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAchievmentsState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAssetState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAttractState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBaseObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBitMapFont.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBombardEnemy.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CCheatState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CCredits.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CCustomLevelState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CFileSelectState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGamePlayState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGravObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGravWell.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHazards.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHeavyEnemy.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHowToPlay.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHUD.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CIntroState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CKeybindState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CLevelSelect.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CMainMenuState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CMovablePlatform.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CObjectManager.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COptionsState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COutroState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPickups.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPlayer.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSniperEnemy.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CTripwire.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CTurret.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CUpgradeState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CWalkerEnemy.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CZone.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IGameState.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAnimationManager.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CEventSystem.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGravSystem.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CMessage.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CMessageSystem.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CTileManager.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SaveSystem.cpp">
+      <Filter>Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debug Console\DebugConsole.cpp">
+      <Filter>Debug Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Profiler\CCodeProfiler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CEmitter.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CParticle.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CParticleManager.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\CSGD_Direct3D.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\CSGD_DirectInput.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\CSGD_DirectSound.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\CSGD_FModManager.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\CSGD_TextureManager.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\CSGD_WaveManager.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\SGD_Math.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD Wrappers\SGD_Util.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAbsorbPlatform.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAchievmentsState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAssetState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAttractState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBaseObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBitMapFont.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBombardEnemy.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCheatState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCredits.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCustomLevelState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CFileSelectState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGamePlayState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGravObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGravWell.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHazards.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHeavyEnemy.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHowToPlay.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHUD.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CIntroState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CKeybindState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CLevelSelect.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CMainMenuState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CMovablePlatform.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CObjectFactory.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CObjectManager.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COptionsState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COutroState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPickups.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPlayer.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSniperEnemy.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CTripwire.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CTurret.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CUpgradeState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CWalkerEnemy.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CZone.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IGameState.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IListener.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAnimationManager.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEvent.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEventSystem.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGravSystem.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CMessage.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CMessageSystem.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CTileManager.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SaveSystem.h">
+      <Filter>Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Debug Console\DebugConsole.h">
+      <Filter>Debug Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Profiler\CCodeProfiler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEmitter.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CParticle.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CParticleManager.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll">
+      <Filter>SGD Wrappers</Filter>
+    </None>
+    <None Include="Source\SGD Wrappers\fmodex.dll">
+      <Filter>SGD Wrappers</Filter>
+    </None>
+    <None Include="Source\SGD Wrappers\fmodexL.dll">
+      <Filter>SGD Wrappers</Filter>
+    </None>
+    <None Include="fmodexL.dll">
+      <Filter>SGD Wrappers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
